@@ -1,0 +1,83 @@
+.cadastro-usuarios {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    background-color: grey;
+    padding: 2%;
+}
+
+
+.campos-cadastro {
+    margin-left: 5%;
+}
+
+.pesquisa-usuarios {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-lateral {
+    height: 500px;
+    width: 20%;
+    background-color: grey;
+    margin: 1%;
+    text-align: center;
+}
+
+.info-usuarios {
+    height: 500px;
+    width: 80%;
+    background-color: darkseagreen;
+    margin: 1%;
+    text-align: center;    
+}
+
+
+.filtro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 8px;
+}
+
+
+.tabela-usuarios {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.tabela-usuarios td, .tabela-usuarios th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.tabela-usuarios tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tabela-usuarios tr:nth-child(odd){
+    background-color: grey;
+}
+  
+.tabela-usuarios tr:hover {
+    background-color: #ddd;
+}
+  
+.tabela-usuarios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(83, 90, 83);
+    color: white;
+}
+
+#btn-cadastrar {
+    margin-left: 15px;
+    height: 20px;
+}
+
+#atualizar-tabela {
+    
+}

@@ -1,0 +1,4 @@
+nome_usuario,cpf_usuario,cidade_usuario
+Vinicius Martins Luiz, 12345678910, São Paulo
+Aline Cristina Borges, 12345678910, Rio de Janeiro
+Teste Usuario 3, 12345678910, Recife

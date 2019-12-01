@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/usuario.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Eskive</title>
+</head>
+
+<body>
+
+    <div class="cadastro-usuarios">
+        <div>
+            <ul class="label-cadastro">
+                <li><label for="nome-usuario">Nome do Usuario</label></li>
+                <li><label for="cpf-usuario">CPF do Usuario</label></li>
+                <li><label for="cidade-usuario">Cidade do Usuario</label></li>
+            </ul>
+        </div>
+        <div class="campos-cadastro">
+            <ul>
+                <li><input id="nome-usuario" type="text"></li>
+                <li><input id="cpf-usuario" type="text"></li>
+                <li><input id="cidade-usuario" type="text"></li>
+            </ul>
+        </div>
+        <button id="btn-cadastrar">Cadastrar</button>
+    </div>
+
+
+    <div class="pesquisa-usuarios">
+        <div class="menu-lateral">
+            <ul class="filtros-usuarios">
+                <li class="filtro">
+                    <label for="nome-usuario">Nome do Usuario</label>
+                    <input id="nome-usuario" type="text">
+                </li>
+                <li class="filtro">
+                    <label for="cpf-usuario">CPF do Usuario</label>
+                    <input id="cpf-usuario" type="text">
+                </li>
+                <li class="filtro">
+                    <label for="cidade-usuario">Cidade do Usuario</label>
+                    <input id="cidade-usuario" type="text">
+                </li>
+            </ul>
+
+        </div>
+        <div class="info-usuarios">
+            <button id="atualizar-tabela">Atualizar tabela</button> 
+            <div id="t-usuarios">
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
