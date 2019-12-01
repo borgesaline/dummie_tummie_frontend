@@ -1,10 +1,11 @@
 $(document).ready(function(){
     $('#atualizar-tabela').click(function(){
         $.ajax({
-            url: "arquivos/usuarios.txt",
+            type: "GET",
+            url: "https://raw.githubusercontent.com/borgesaline/dummie_tummie_frontend/eskivealine/arquivos/usuarios.txt",
             dataType: "text",
-            contentType: "text/csv",
             success: function(data) {
+                console.log("teste");
                 var usuarios = data.split(/\r?\n|\r/);
                 var linha_tabela = '<table class="tabela-usuarios">'
                 
